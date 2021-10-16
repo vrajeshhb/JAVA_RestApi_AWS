@@ -8,10 +8,10 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
 	
-	private String dbName = "classicmodels";
+	private String dbName = "databaseName";
     private String userName = "username";
     private String userPass = "password";
-    private String hostName = "programdebug.chrc4u8dca9s.us-east-2.rds.amazonaws.com";
+    private String hostName = "hostname";
     private String port = "3306";
     
     private String jdbcURL = "jdbc:mysql://"+hostName+":"+port+"/"+dbName+"?user="+userName+"&password="+userPass;
